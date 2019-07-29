@@ -1,0 +1,176 @@
+body{
+    width: 74%;
+    margin: auto;
+}
+#logout{
+    background-color: #ff5555;
+    color:#fff;
+    border:solid 1px #fff;
+}
+
+#logout:hover{
+    background-color: transparent;
+    border:solid 1px #ff5555;
+    color:#ff5555;
+}
+
+button{
+    background-color: rgb(72, 64, 146);
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: solid 1px rgb(72, 64, 146);
+    transition: ease .7s;
+}
+button:hover{
+    background-color: transparent;
+    border: solid 1px rgb(45, 37, 121);
+    color:rgb(45, 37, 121);
+    cursor: pointer;
+}
+header{
+    margin-bottom: 80px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+}
+
+/* display content travels */
+h2{
+    color:#fff;
+    background-color: #333;
+    padding: 12px;
+    border-radius:8px;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+h3,h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+/* a:visited{
+    color:#fff;
+} */
+
+#text{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 10px 10px 10px #ddd, -10px -10px 10px #ddd;
+}
+#text img{
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* connexion form */
+#session-form{
+    background-color: #eee;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 40px auto;
+    height: 250px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+#session-form input{
+    border: solid 2px transparent;
+    border-bottom: solid 1px skyblue;
+    background-color: #eee;
+}
+#session-form input:focus{
+    border: solid 2px skyblue;
+}
+#add-form{
+    background: linear-gradient(#2193b0, #6dd5ed);
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#session-form input{
+    height: 40px;
+    width: 45%;
+    padding-left: 12px;
+}
+#session-form button{
+    height: 30px;
+}
+#add-form input, textarea{
+    margin: 30px;
+    padding: 8px;
+}
+#add-form button{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: rgb(75, 184, 75);
+    border: solid 1px rgb(75, 184, 75);
+}
+#add-form button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+#com{
+    width: 400px;
+    margin: auto;
+    height: 60px;
+    margin-top: 10px;
+}
+#com input{
+    width: 400px;
+    height: 20px;
+    margin: auto;
+}
+.comment{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    height: 160px;
+    overflow-y: scroll;
+}
+table{
+    width: 100%;
+    background-color: #eee; 
+    border-collapse: collapse;
+    color:#fff;
+}
+th{
+    background-color: rgb(15, 15, 42);
+}
+th:nth-child(1){
+    width: 30%;
+}
+tr:nth-child(even){
+    background-color: rgb(92, 115, 179);
+}
+tr:nth-child(odd){
+    background-color: rgb(48, 70, 133);
+}
+
+table th, td{
+    border: solid 1px #333;
+    height: 40px;
+}
