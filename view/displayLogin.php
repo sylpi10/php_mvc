@@ -2,9 +2,9 @@
 ob_start();
 ?>
 <h3>Connectez-vous</h3>
-        <form id='session-form' action="session.php" method='post'>
-            <input  type="mail" name ='email2' placeholder = 'Mail' >
-            <input  type="password" name = 'pwd2' placeholder = 'Password'>
+        <form id='session-form' action="index.php?page=loginForm" method='post'>
+            <input  type="mail" name ='email' placeholder = 'Mail' >
+            <input  type="password" name = 'pwd' placeholder = 'Password'>
 
             <button type="submit">Connexion</button>
         </form>

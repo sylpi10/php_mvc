@@ -18,16 +18,17 @@
             <li> <strong> Voyages</strong></li>
             <li> <a href="index.php?page=voyages"> Parcourir</a></li>
             <?php 
-            // if (isset($_SESSION['firstName'])){
-                // echo '<li> <a href="addTravel.php">Ajouter</a></li>';
-            // }
-            // else {
+            if (isset($_SESSION['email'])){
+                echo '<li> <a href="">Ajouter</a></li>';
+                echo '<li> <a href="controller/disconnect.php">Déconnexion</a></li>';
+            }
+            else {
                 echo
                 //  '<form action="session.php" method="post">
                 //      <li><button type="submit" name="connect">Se connecter</button></li>
                 //  </form>';
                 '<li> <a href="index.php?page=loginForm">Connexion</a></li>';
-            // }
+            }
             ?>
         </ul>
     </header>
