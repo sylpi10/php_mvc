@@ -16,17 +16,17 @@
     <header>
         <ul>
             <li> <strong> Voyages</strong></li>
-            <li> <a href=""> Parcourir</a></li>
+            <li> <a href="index.php?page=voyages"> Parcourir</a></li>
             <?php 
             // if (isset($_SESSION['firstName'])){
-                echo '<li> <a href="addTravel.php">Ajouter</a></li>';
+                // echo '<li> <a href="addTravel.php">Ajouter</a></li>';
             // }
             // else {
                 echo
                 //  '<form action="session.php" method="post">
                 //      <li><button type="submit" name="connect">Se connecter</button></li>
                 //  </form>';
-                '<li> <a href="session.php">Connexion</a></li>';
+                '<li> <a href="index.php?page=loginForm">Connexion</a></li>';
             // }
             ?>
         </ul>

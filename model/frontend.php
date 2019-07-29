@@ -7,3 +7,7 @@ function getTravels() {
     // pdo to array
     return $response->fetchAll(PDO::FETCH_ASSOC);
 }
+
+function getLogin() {
+    return;
+}
